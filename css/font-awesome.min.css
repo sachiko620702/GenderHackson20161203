@@ -8,7 +8,7 @@
 }
 
 #mwt_slider_content{
-	background:#3c5a98;
+	background:rgba(144,218,253,100);
 	text-align:center;
 	padding-top:20px;
 }
@@ -48,7 +48,7 @@
 }
 
 #notice_slider_content{
-	background:#3c5a98;
+	background:rgba(144,218,253,100);
 	text-align:center;
 	padding-top:20px;
 }
