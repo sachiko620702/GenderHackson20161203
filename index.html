@@ -4,31 +4,42 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Untitled Document</title>
 <link rel="stylesheet" href="css/font-awesome.min.css">
+<script src="jquery/jquery-3.1.1.min.js"></script>
+<script type='text/javascript'>
+$(function(){
+	var w = $("#mwt_slider_content").width();
+	$('#mwt_slider_content').css('height', ($(window).height() - 20) + 'px' ); //將區塊自動撐滿畫面高度
+	
+	$("#mwt_fb_tab").mouseover(function(){ //滑鼠滑入時
+		if ($("#mwt_mwt_slider_scroll").css('left') == '-'+w+'px')
+		{
+			$("#mwt_mwt_slider_scroll").animate({ left:'0px' }, 600 ,'swing');
+		}
+	});
+	
+	
+	$("#mwt_slider_content").mouseleave(function(){　//滑鼠離開後
+		$("#mwt_mwt_slider_scroll").animate( { left:'-'+w+'px' }, 600 ,'swing');	
+	});	
+});
+
+</script>
 </head>
 
 <body>
-<nav id="menu" class="left">
-
-        <ul>
-            <li><a href="#" class="active"><i class="fa fa-hoff-canvas Sime"></i>Home</a></li>
-            <li><a href="#"><i class="fa fa-info-circle"></i>About</a></li>
-            <li>
-                <a href="#"><i class="fa fa-laptop"></i>Services <i class="fa fa-caret-down"></i></a>
-                <ul>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Service</a></li>
-                </ul>
-            </li>
-            <li><a href="#"><i class="fa fa-phone"></i>Contact</a></li>
-        </ul>
-
-        <a href="#" id="showmenu"> <i class="fa fa-align-justify"></i> </a> <!--選單按鈕-->
-    </nav>
-
+    <div id="mwt_mwt_slider_scroll">
+        <div id="mwt_fb_tab">
+            <span>M</span>
+            <span>E</span>
+            <span>N</span>
+            <span>U</span>
+        </div>
+        <div id="mwt_slider_content">
+            <iframe src="menu.html" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:270px;" allowTransparency="true"></iframe>
+        </div>
+    </div>
     <div id="container">
         container內容位子
     </div>
-  <script src="jquery/jquery-3.1.1.min.js"></script>
 </body>
 </html>
