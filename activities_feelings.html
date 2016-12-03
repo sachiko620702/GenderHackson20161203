@@ -7,7 +7,7 @@
 body {
     background-image: url("./img/background.png");
     background-repeat: no-repeat;
-	background-size: 380px 690px;
+	background-size: 380px 670px;
     background-position: right top;
 }
 </style>
@@ -37,11 +37,33 @@ body {
         </div>
     </div>
     <div class='content' width="100%">
-    	<div id="calendar"><img src="img/calendar2.png" width="360px" height="247px" /></div>
-        <p> </p><br />
-        <div style="border-width:3px;border-style:dashed;border-color:#FFAC55;padding:5px;">2016-12-04 16:00:00 Next Event</div>
-        <div style="border-width:3px;border-style:dashed;border-color:#FFAC55;padding:5px;">2016-12-05 09:00:00 Next Event</div>
-        <div style="border-width:3px;border-style:dashed;border-color:#FFAC55;padding:5px;">2016-12-09 10:00:00 Next Event</div>
+    	<div id="calendar">
+        	<h1>活動名稱</h1>
+        	<br />
+        	跟
+        	<select name="">
+        	  <option >同學</option>
+        	  <option >伴侶</option>
+        	  <option >家人</option>
+        	  <option >朋友</option>
+        	  <option >其他</option>
+      	  </select>
+        	在一起<br />
+            心情:<br />
+            <select name="">
+              <option >感覺高興</option>
+              <option >感覺自在</option>
+              <option >感覺難受</option>
+              <option >感覺OK</option>
+              <option >感覺被傷害</option>
+              <option >感覺精神受創</option>
+              <option >感覺被威脅</option>
+              <option >感覺被監視</option>
+            </select>
+            <br/>
+            <textarea name="" cols="70" rows="10"></textarea>
+        	
+        </div>
     </div>
 </body>
 </html>

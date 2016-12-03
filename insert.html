@@ -1,11 +1,20 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>新增日曆</title>
+<title>Untitled Document</title>
+<style>
+body {
+    background-image: url("./img/background.png");
+    background-repeat: no-repeat;
+	background-size: 380px 670px;
+    background-position: right top;
+}
+</style>
 <link rel="stylesheet" href="css/font-awesome.min.css">
 <script src="jquery/jquery-3.1.1.min.js"></script>
 <script src="jquery/menu.js"></script>
+<script src="jquery/notice.js"></script>
 </head>
 
 <body>
@@ -16,11 +25,42 @@
             <span>---</span>
         </div>
         <div id="mwt_slider_content">
-            <iframe src="menu.html" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:270px;" allowTransparency="true"></iframe>
+            <iframe src="menu2.html" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:150px; height:270px;" allowTransparency="true"></iframe>
         </div>
     </div>
-    <div class='content'>
-    	<div id="form">insert the form</div>
+    <div id="notice_notice_slider_scroll">
+        <div id="notice_tab">
+            <span>2</span>
+        </div>
+        <div id="notice_slider_content">
+            <iframe src="notice.html" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:120px; height:270px;" allowTransparency="true"></iframe>
+        </div>
+    </div>
+    <div class='content' width="100%">
+    	<div id="calendar">
+        	跟
+            <select name="">
+            	<option >同學</option>
+                <option >伴侶</option>
+                <option >家人</option>
+                <option >朋友</option>
+                <option >其他</option>
+            </select>
+            在一起<br />
+            心情:<br />
+            <select name="">
+            	<option >感覺高興</option>
+                <option >感覺自在</option>
+                <option >感覺難受</option>
+                <option >感覺OK</option>
+                <option >感覺被傷害</option>
+                <option >感覺精神受創</option>
+                <option >感覺被威脅</option>
+                <option >感覺被監視</option>
+            </select>
+            <br />
+            <textarea name="" cols="70" rows="10"></textarea>
+        </div>
     </div>
 </body>
 </html>
