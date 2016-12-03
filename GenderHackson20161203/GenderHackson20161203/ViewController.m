@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    NSURL *url = [NSURL URLWithString:@"http://sachiko620702.github.io/GenderHackson20161203/?u"];
+    NSURL *url = [NSURL URLWithString:@"http://sachiko620702.github.io/GenderHackson20161203/?3332"];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     [self.MyWeb loadRequest:request];
 }
