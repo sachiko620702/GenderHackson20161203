@@ -1,8 +1,8 @@
 #mwt_mwt_slider_scroll
 {
 	top: 0;
-	left:-160px;
-	width:160px;	
+	left:-100px;
+	width:100px;	
 	position:fixed;
 	z-index:9999;
 }
@@ -41,8 +41,8 @@
 #notice_notice_slider_scroll
 {
 	top: 0;
-	right:-150px;
-	width:150px;	
+	right:-100px;
+	width:100px;	
 	position:fixed;
 	z-index:9999;
 }
