@@ -16,6 +16,7 @@
 		04A5BF411DF2AA200000644D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A5BF3F1DF2AA200000644D /* LaunchScreen.storyboard */; };
 		04A5BF4C1DF2AA200000644D /* GenderHackson20161203Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A5BF4B1DF2AA200000644D /* GenderHackson20161203Tests.m */; };
 		04A5BF571DF2AA200000644D /* GenderHackson20161203UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A5BF561DF2AA200000644D /* GenderHackson20161203UITests.m */; };
+		04A5BF651DF319680000644D /* icon in Resources */ = {isa = PBXBuildFile; fileRef = 04A5BF641DF319680000644D /* icon */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		04A5BF521DF2AA200000644D /* GenderHackson20161203UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenderHackson20161203UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A5BF561DF2AA200000644D /* GenderHackson20161203UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenderHackson20161203UITests.m; sourceTree = "<group>"; };
 		04A5BF581DF2AA200000644D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A5BF641DF319680000644D /* icon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icon; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		04A5BF2D1DF2AA200000644D /* GenderHackson20161203 */ = {
 			isa = PBXGroup;
 			children = (
+				04A5BF641DF319680000644D /* icon */,
 				04A5BF311DF2AA200000644D /* AppDelegate.h */,
 				04A5BF321DF2AA200000644D /* AppDelegate.m */,
 				04A5BF341DF2AA200000644D /* ViewController.h */,
@@ -253,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A5BF411DF2AA200000644D /* LaunchScreen.storyboard in Resources */,
+				04A5BF651DF319680000644D /* icon in Resources */,
 				04A5BF3E1DF2AA200000644D /* Assets.xcassets in Resources */,
 				04A5BF391DF2AA200000644D /* Main.storyboard in Resources */,
 			);
@@ -518,6 +522,7 @@
 				04A5BF5D1DF2AA200000644D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04A5BF5E1DF2AA200000644D /* Build configuration list for PBXNativeTarget "GenderHackson20161203Tests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +531,7 @@
 				04A5BF601DF2AA200000644D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04A5BF611DF2AA200000644D /* Build configuration list for PBXNativeTarget "GenderHackson20161203UITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +540,7 @@
 				04A5BF631DF2AA200000644D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
